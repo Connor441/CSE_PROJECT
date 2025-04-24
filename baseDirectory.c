@@ -98,7 +98,7 @@ int main(){
             //check to see if user has admin status
             //if so, open adminPage
         //6. exit
-        printf("Enter a nummberr to proceed\n");
+        printf("Enter a number to proceed\n");
         printf("1. Search for a shop by name\n");
         printf("2. Seach for shops using tags\n");
         if(&userPro == NULL){
@@ -124,7 +124,7 @@ int main(){
         } else {
             printf("3. Log out\n");
             if(userPro.status == businessOwner){
-                printf("4. View you business page\n");
+                printf("4. View your business page\n");
                 printf("5. QUIT\n");
                 scanf("%d",&option);
                 switch(option){
@@ -252,3 +252,4 @@ void adminPage(struct profile user){
     //3. view unverified shops
     //4. quit
 }
+
